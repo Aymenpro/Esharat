@@ -4,145 +4,34 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: TheSansArabic;
-    src: url(/fonts/Bahij\ TheSansArabic-SemiBold.ttf), url(/fonts/Bahij_TheSansArabic-Black.ttf), url(/fonts/Bahij_TheSansArabic-ExtraLight.ttf), url(/fonts/Bahij_TheSansArabic-Plain.ttf);
-}
-
 html {
     direction: rtl;
-    font-family: TheSansArabic, Arial, Helvetica, sans-serif;
 }
 
 header {
-    height: 140px;
+    height: 169px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #F7F7F7;
-    box-shadow: 0px 3px 66px 0px rgb(0 0 0 / 16%);
-    overflow: overlay;
+    box-shadow: 0 1px 66px 0px rgb(0 0 0 / 16%);
+    flex-wrap: wrap;
 }
 
-.logo {
-    width: 313.95px;
-    height: 100px;
+.Vision2030_logo {
+    width: 153px;
+    height: 101px;
+    order: 1;
 }
 
-.container {
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
+.SHI_logo {
+    width: 524px;
+    height: 84px;
+    order: 2;
 }
 
-.title {
-    width: 1366px;
-    margin-top: 66px;
-}
-
-.title label {
-    font-size: 38px;
-    font-weight: bold;
-}
-
-.content {
-    width: 1366px;
-    background-color: #C9E5C3;
-    border-radius: 20px;
-    margin-top: 42px;
-    padding-top: 41px;
-    padding-right: 56px;
-}
-
-.search-bar label {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-@media only screen and (max-width: 600px) {
-    .content {
-        width: 400px;
-    }
-    .title {
-        width: 400px;
-    }
-    .video {
-        width: 400px !important;
-        background-color: rebeccapurple;
-    }
-    .search-bar {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        justify-content: center;
-        align-items: flex-start;
-    }
-    .search-bar input {
-        width: 300px !important;
-    }
-}
-
-.search-bar input {
-    width: 429px;
-    padding: 13px 32px 15px 0;
-    font-size: 15px;
-    border-radius: 24px;
-    border: none;
-}
-
-.search-bar input:focus {
-    outline: none;
-}
-
-.search-bar button {
-    width: 107px;
-    text-align: center;
-    padding: 13px 0 15px 0;
-    border-radius: 24px;
-    border: none;
-    background-color: #156703;
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.search-result {
-    margin-top: 33px;
-    margin-bottom: 22px;
-    display: flex;
-    gap: 18px;
-}
-
-.search-result .word {
-    padding: 11px 20px 11px 20px;
-    font-size: 14px;
-    font-weight: bold;
-    background-color: #EAFFE5;
-    border: none;
-    border-radius: 24px;
-    cursor: pointer;
-}
-
-.video {
-    width: 1375px;
-    height: 529px;
-    background-color: rgb(122 210 103 / 9%);
-    margin-top: 35px;
-    margin-bottom: 35px;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.video i {
-    color: red;
-    font-size: 72px;
-}
-
-.video video {
-    display: none;
+.HR_logo {
+    width: 251px;
+    height: 93px;
+    order: 3;
 }

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    header {
+        height: 212px;
+    }
+    .SHI_logo {
+        order: 3;
+        width: 382px;
+        height: 62px;
+    }
+    .HR_logo {
+        order: 2;
+        width: 147px;
+        height: 54px;
+    }
+    .Vision2030_logo {
+        width: 83px;
+        height: 55px;
+    }
+}
